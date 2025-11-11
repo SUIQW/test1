@@ -8,6 +8,8 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 赋予 GITHUB_TOKEN 写入权限，用于推送至 gh-pages 分支
     steps:
       - uses: actions/checkout@v4
 
