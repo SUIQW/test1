@@ -56,7 +56,7 @@ favicon: "" # the favicon for your site
 yat:
   date_format: "%b %d, %Y"
 
-theme: jekyll-theme-yat
+remote_theme: jeffreytse/jekyll-theme-yat  # 直接引用 GitHub 上的 yat 主题源码
 
 # If you want more debug log, you can set true
 # debug: false
